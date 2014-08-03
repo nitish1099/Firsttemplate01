@@ -1,0 +1,229 @@
+@import url(https//fonts.googleapis.com/css?family=Lato:400,900);
+@import url(https//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+html, body {
+    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+	
+	
+    height: 100%;
+}
+
+#bg-image-1{
+	
+	
+     background-image: url(intro.jpg);
+     margin-top: 50px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    
+   
+}
+#bg-image-2{
+    float:top;
+    
+     background-image: url(one.jpg);
+    
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    
+   
+}
+#bg-image-3{
+    float:top;
+    
+     background-image: url(two.jpg);
+    
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    
+   
+}
+#bg-image-4{
+    float:top;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    
+   
+}
+.arrow{
+   
+    position: relative; 
+    margin-top: 350px;
+     
+
+}
+.arrow1{
+    
+    position:relative;
+    margin-top: 122px;
+}
+.arrow2{
+    
+    position:relative;
+    margin-top: 22px;
+}
+
+.panel{ 
+    max-width: 500px;
+    
+    margin-top:80px;
+
+
+}
+.panel-heading{
+    min-height:10% !important; 
+
+
+}
+.panel-body{
+
+}
+.panel-title{
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.apple{
+    
+   position:relative;
+   margin-top: 50px;
+}
+.arrow,.arrow1,.arrow2
+
+{
+transform:scale(0.5,0.5);
+-ms-transform:scale(0.5,0.5); /* IE 9 */
+-webkit-transform:scale(0.5,0.5); /* Opera, Chrome, and Safari */
+}
+input{
+  -webkit-border-radius: 5px !important;
+     -moz-border-radius: 5px !important;
+          border-radius: 5px !important;
+}
+#row1{
+    float:top;
+}
+.apple{
+     float: top; 
+    position: relative;
+    margin-top: 100px;
+   max-width: 350px;
+}
+
+
+   
+    
+    .animate {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .info-card {
+        width: 200px;
+        border: 1px solid rgb(215, 215, 215);
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 20px;
+        overflow: hidden;
+
+    }
+    .info-card > img {
+        width: 100px;
+        margin-bottom: 60px;
+
+    }
+    .info-card .info-card-details,
+    .info-card .info-card-details .info-card-header  {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        padding: 0 15px;
+        background: rgb(255, 255, 255);
+        text-align: center;
+
+    }
+    
+    
+    
+
+    .info-card .info-card-details .info-card-header {
+        height: auto;       
+        bottom: 100%;
+        padding: 10px 5px;
+    }
+    .info-card:hover .info-card-details {
+        bottom: 0px;
+        overflow: auto;
+        padding-bottom: 25px;
+    }
+    .info-card:hover .info-card-details .info-card-header {
+        position: relative;
+        bottom: 0px;
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+    .info-card .info-card-details .info-card-header h1, 
+    .info-card .info-card-details .info-card-header h3 {
+        color: rgb(62, 62, 62);
+        font-size: 22px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+    .info-card .info-card-details .info-card-header h3 {
+        color: rgb(142, 182, 52);
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    .info-card .info-card-details .info-card-detail .social {
+        list-style: none;
+        padding: 0px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .info-card .info-card-details .info-card-detail .social a {
+        position: relative;
+        display: inline-block;
+        min-width: 40px;
+        padding: 10px 0px;
+        margin: 0px 5px;
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(215, 215, 215);
+        border-radius: 40px;
+    }
+
+    .thumbnail{
+        margin-top: 10%;
+        max-width: 300px;
+        position: relative;
+
+    }
+    .alert{
+        margin-top: 2%;
+        max-height: 100px;
+        overflow:hidden;
+        max-width: 500px;
+
+    }
