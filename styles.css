@@ -76,6 +76,11 @@ html, body {
     position:relative;
     margin-top: 22px;
 }
+.arrow3{
+    
+    position:relative;
+    margin-top: 60px;
+}
 
 .panel{ 
     max-width: 500px;
@@ -102,7 +107,7 @@ html, body {
    position:relative;
    margin-top: 50px;
 }
-.arrow,.arrow1,.arrow2
+.arrow,.arrow1,.arrow2,.arrow3
 
 {
 transform:scale(0.5,0.5);
